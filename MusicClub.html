@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <!--Alt attribute is used to describe the //Div lets you group elements
+    //Span is used to select certain elements to style them differently.//hr is used
+to specify a break between elements by drawing a line//To move to the next
+line, we use the br command.sup is used to superscript elements and sub is 
+used to subscript elements//html entities represent special symbols, they
+start with & and end with a ;//if we have to use angular brackets use &lt;
+for less than and &gt; for greater than.// the ampersand is a reserved ch
+aracter, its code is &amp;//every entity also has an associated number with
+it//&spades; is used to represent a spade//semantic markup specifies what 
+element plays what role in HTML//the <main> element represents the main 
+    content of the page//nav is used to provide links to different resources
+//<section> is used to represent a standalone bit of content on a webpage
+    //<article> is a self-contained composition. //<aside> is used to 
+        call out boxes in the side//<header> is used to include top elements//
+    <footer> may include last few elements//<figure> uses a picture along 
+        with a caption//<table> is used to define a table//<Td> stands 
+            for table data ie a single cell in a table//tr stands for table row//
+            th stands for table headings//thead,tfoot,tbody are used to 
+            break the table// rowspan and colspan decides which heading
+            spans how many rows or how many columns//action attribute 
+            is used to tell where to send the data//-->
+           <header>
+    
+            <ul>
+                <li id="home"><button><a  href="Home">Home</a></button></li>
+                <li id="contact"><button><a href="ContactUs">Contact Us</a></button></li>
+            </ul>
+        </header>
+           <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+           <a href="Home"><img src="data:image/png;base64,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" alt="The logo of the Music Club NITW"></a>
+    <section id="head">
+    <h1>Music Club NITW</h1>
+    <title>Music Club NITW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="music.css">
+   
+        
+    
+    </section>
+    <main>
+        <hr>
+    <h2>Who We Are</h2>
+    <p>The <b>Music Club</b> at NITW is the oldest club in the history of the institute. The club houses the most
+        talented artists including <i>vocalists, drummers, guitarists, violonists, and floutists</i>.
+        The Music Club performs several times in the year but has two flagship events.
+    <hr>
+        <h2>Events</h2>
+    <p> The first concert is on the day 0 of Spring Spree and is called Open Air.
+        The concert sees a footfall of nearly 2000 people every year, with the crowd growing exponentially
+        every year. The second big event takes place during the Day-0 of the tech-fest.  </p>
+        <p>
+            Along with the two concerts, the Music Club also hosts the acoustic Lounge which sees a footfall of nearly 800 people.
+            The club also performs at the Youth Fest, theme releases and official events of the institute. Other than events,
+            the club hosts a 3-day workshop for students interested in vocals and instruments.
+        </p>
+        <p>
+            Three months before every event, artists form their bands, pick vocalists and instrumentalists, and choose a song.
+            For the next two months, every band practices everyday in the club. Post two months, songs are screened and accordingly 
+            asked to be removed or worked upon. Before the event, there takes place a second screening to make sure everything is 
+            in place. 
+        </p>
+        <hr>
+        <h2>Our Team</h2>
+        <p>
+            Our team consists of two vital parts- the core team and the tech team. The core team consists of the chosen artists
+            who are picked after several rounds of audition testing their skill, knowledge and presence. All vocalists and
+            instrumentalists form the core team.
+             <p>The tech team is responsible for other various duties of the club-namely, Stage
+            design, social media presence, sound engineering, designing of posters, hosting and sponsorship work. The teams work 
+            together throughout the year to make sure every performance and every event is executed perfectly.
+             </p></p>
+        <hr>
+    </main>
+   
+    <h2>Current Members</h2>
+    <div class="container">
+        <h3>Core Team</h3>
+        <p>As mentioned above, the core team of the Music Club</p>
+    <table>
+        <thead>
+        <tr>
+            <div class="row no-gutters">
+            <th id="memname"><div class="col-3">Member Name</div></th>
+            <th id="position"><div class="col-3">Position/Role</div></th>
+            <th id="instru"><div class="col-6">Instruments Played</div></th>            
+            </div>       
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Eliazer</td>
+        <td>General Secretary</td>
+        <td>Guitar, Keyboard, Bass, Guitar</td>
+        </tr>
+        <tr>
+        <td>Joel</td>
+        <td>Program Director</td>
+        <td>Violin, Guitar</td>
+        </tr>
+        <tr>
+            <td>Raghu</td>
+            <td>Additional Secretary</td>
+            <td>Keyboard,Vocals, Bass, Drums, Cajon</td>
+        </tr>
+        <tr>
+            <td>Sameer</td>
+            <td>Additional Secretary</td>
+            <td>Vocals</td>
+        </tr>
+        <tr>
+            <td>Krunal</td>
+            <td>Additional Secretary</td>
+            <td>Guitar, Bass, Drums, Backing Vocals</td>
+        </tr>
+        <tr>
+            <td>Varad</td>
+            <td>Additional Secretary</td>
+            <td>Drums, Cajon, Beatboxing</td>
+        </tr>
+        <tr>
+            <td>Anshul</td>
+            <td>Additional Secretary</td>
+            <td>Rap</td>
+        </tr>
+        <tr>
+            <td>Gayathri</td>
+            <td>Additional Secretary</td>
+            <td>Vocals, Backing Vocals</td>
+        </tr>
+        <tr>
+            <td>Ephraim</td>
+            <td>Additional Secretary</td>
+            <td>Keyboard, Vocals, Bass, Acoustic</td>
+        </tr>
+        <tr>
+            <td>Sangeet</td>
+            <td>Additional Secretary</td>
+            <td>Guitar, Keyboard, Bass</td>
+        </tr>
+        <tr>
+            <td>Shruti</td>
+            <td>Additional Secretary</td>
+            <td>Vocals, Backing Vocals, Harmonium</td>
+        </tr>
+        <tr>
+            <td>Satwika</td>
+            <td>Additional Secretary</td>
+            <td>Vocals, Guitar, Keyboard</td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <hr>
+    <h2>Get in Touch with Us</h2>
+    <form>
+        <div class="row">
+          <div class="col">
+            <label for="name">Please enter your name:</label>
+            <input type="text" class="form-control bg-secondary" placeholder="First name" id="name">
+          </div>
+          <div class="col">
+            <label for="email">Please enter your e-mail</label>
+            <input type="text" class="form-control bg-secondary" placeholder="Email" id="email">
+          </div>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Student
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              Working Professional
+            </label>
+          </div>
+          <button class="btn btn-warning" type="submit">Submit</button>
+      </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
